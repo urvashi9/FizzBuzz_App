@@ -1,10 +1,15 @@
 @keyframes animation1{
 	0%{
-		color:#b9f6ca;
-	}
-	
-	100%{
 		color:#1b5e20;
+	}
+	75%{
+		color:#1b5e20;
+	}
+	85%{
+		color:#1b5e20;
+	}
+	100%{
+		color:#b9f6ca;
 	}
 }
 
