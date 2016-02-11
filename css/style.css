@@ -1,12 +1,10 @@
 @keyframes animation1{
 	0%{
-		color:#1b5e20;
-	}
-	75%{
 		color:#b9f6ca;
 	}
+	
 	100%{
-		color:#b9f6ca;
+		color:#1b5e20;
 	}
 }
 
@@ -22,7 +20,7 @@
 	animation-name: animation1;
 	animation-duration:1.3s;
 	animation-iteration-count: infinite;
-	animation-direction: reverse;
+
     /*animation: blinker 1s linear infinite;*/
 }
 li{
