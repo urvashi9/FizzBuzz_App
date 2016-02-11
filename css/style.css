@@ -1,0 +1,38 @@
+@keyframes animation1{
+	0%{
+		color:#1b5e20;
+	}
+	75%{
+		color:#b9f6ca;
+	}
+	100%{
+		color:#b9f6ca;
+	}
+}
+
+
+@keyframes blinker {  
+  50% { opacity: 0.0; }
+}
+.masthead{
+	color:#1b5e20;
+	text-align: center;
+	font-family: 'Miltonian',georgia,sans-serif;
+	font-size:2em;
+	animation-name: animation1;
+	animation-duration:1.3s;
+	animation-iteration-count: infinite;
+	animation-direction: reverse;
+    /*animation: blinker 1s linear infinite;*/
+}
+li{
+	text-align: center;
+	text-decoration: none;
+	list-style-type: none;
+	font-size:1.5em;
+	color:#616161;
+	font-family:'Vast Shadow',georgia,sans-serif;
+}
+body{
+	background-color: #b9f6ca;
+}
