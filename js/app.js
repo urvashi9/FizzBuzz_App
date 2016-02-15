@@ -1,7 +1,8 @@
 $(document).ready(function(){
 	var i;
 	var j=prompt("Please enter a number greater than 1 for the FizzBuzz challenge");
-	for(i=1;i<=j;i++)
+	var num=parseInt(j,10);
+	for(i=1;i<=num;i++)
 	{
 		if((i%3)==0 && (i%5)!=0)
 		{
