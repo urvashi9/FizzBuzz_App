@@ -2,6 +2,8 @@ $(document).ready(function(){
 	var i;
 	var j=prompt("Please enter a number greater than 1 for the FizzBuzz challenge");
 	var num=parseInt(j,10);
+	fizzbuzz();
+	function fizzbuzz(){
 	for(i=1;i<=num;i++)
 	{
 		if((i%3)==0 && (i%5)!=0)
@@ -21,4 +23,5 @@ $(document).ready(function(){
 			$('<li class="list_items"></li>').appendTo('.list').html('<div class="content"></div><span>' + i + '</span>');
 		}
 	}
+}
 });
